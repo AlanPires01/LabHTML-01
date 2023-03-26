@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Cadastro de cliente</title>
+</head>
+
+<body>
+  <h1 align="center">Cadastro de cliente</h1>
+  <section align="center">
+    <form action="cadastro.html" method="GET">
+      <img src="img/cliente.png" alt="Ilustração de um cliente" />
+      <br></br>
+      <input type="text" name="name" placeholder="Nome do cliente" value="" />
+      <br></br>
+
+      <input type="text" name="cpf" placeholder="CPF" value="" />
+      <br></br>
+
+      <p> Selecione o modelo</p>
+      <select name="select">
+        <optgroup label="Motorola">
+          <option value="Moto G">Moto G</option>
+          <option value="Moto E">Moto E</option>
+        </optgroup>
+        <optgroup label="Samsung">
+          <option value="Galaxy J1">Galaxy J1</option>
+          <option value="Galaxy J5">Galaxy J5</option>
+          <option value="Galaxy J5 Prime">Galaxy J5 Prime</option>
+        </optgroup>
+        <optgroup label="Apple">
+          <option value="Iphone 8">Iphone 8</option>
+          <option value="Iphone 9">Iphone 9</option>
+          <option value="Iphone 10">Iphone X</option>
+        </optgroup>
+      </select>
+
+      <br></br>
+      <textarea name="relato" placeholder="Relate o defeito" cols="20" rows="10"></textarea>
+
+      <br></br>
+      <p>Insira uma foto do dispositivo</p>
+      <input type="file" name="arquivo" />
+      <br>
+      <br>
+      <button type="submit">Consultar</button>
+    </form>
+    <a href="home.html"> <h3>Voltar para Home</h3></a>
+  </section>
+</body>
+
+</html>
